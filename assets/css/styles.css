@@ -39,6 +39,10 @@ section h2 {
     background-color: #1f2a42 !important;
 }
 
+.bg-darkgray {
+    background-color: #1a1c1f !important; 
+}
+
 .btn-social {
     width: 3.25rem;
     height: 3.25rem;
