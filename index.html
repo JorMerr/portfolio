@@ -141,6 +141,30 @@
                         <img class="img-fluid mb-5" src="assets/img/portfolio/cluster_3DScatter.JPG" alt="3D Scatter Plot" />
                     </a>
                 </div>
+                <div class="col-md-6 col-lg-4">
+                    <a class="portfolio-item d-block mx-auto" data-toggle="modal" data-target="#portfolio-modal-6">
+                        <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                            <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                                <p><i class="fa fa-envelope"></i> Canadian Postal Code Cleaning</p>
+                                <i class="fas fa-search-plus fa-2x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio/Mailbox.jpg" alt="Canada Post mailbox against brick wall" />
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a class="portfolio-item d-block mx-auto" data-toggle="modal" data-target="#portfolio-modal-7">
+                        <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                            <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                                <p>Canadian Public EV Charging Station Analysis</p>
+                                <i class="fas fa-search-plus fa-2x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio/city_canada.PNG" alt="Map of Canada with Public Charging Stations Indicated" />
+                    </a>
+                </div>
+
+                <!-- Portfolio Grid Template -->
                 <!-- <div class="col-md-6 col-lg-4">
                     <a class="portfolio-item d-block mx-auto" data-toggle="modal" data-target="#portfolio-modal-6">
                         <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
@@ -278,11 +302,11 @@
         </div>
     </footer>
 
-    <!-- <div class="copyright py-4 text-center text-white">
+    <div class="copyright py-4 text-center text-white">
         <div class="container">
             <small>Jordan Merritt 2022</small>
         </div>
-    </div> -->
+    </div>
 
 
 
@@ -459,6 +483,77 @@
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
                         <h2 class="text-secondary text-uppercase mb-0">
+                            Canadian Postal Code Cleaning
+                        </h2>
+                        <hr class="star-dark mb-5" />
+                        <img class="img-fluid mb-5" src="img/portfolio/project6.jpg" alt="" />
+                        <p class="mb-5">
+                            This project was designed to assist a friend who conducts an event
+                            review of ticket sales for a local business. The postal codes are
+                            input manually by users, which naturally introduces the opportunity for error.
+                            Each year, my friend would go through the excel document line by line to correct
+                            invalid postal codes. My intent in creating this project would be to take the postal codes
+                            as input and run them row by row through a cleaning loop to correct the most common errors
+                            and return valid postal codes. Any invalid postal codes which remain would be provided with 
+                            an error message outlining the issue. This project is being developped in 3 languages:
+                            Python, VBA Script, and JavaScript.
+                        </p>
+                        <!-- <a class="btn btn-primary portfolio-modal-dismiss" href="#">
+                            Live Demo
+                        </a> -->
+
+                        <a class="btn btn-primary portfolio-modal-dismiss" href="https://github.com/JorMerr/postal_code_cleaner">
+                            View Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 7 -->
+    <div class="modal portfolio-modal mfp-hide" id="portfolio-modal-7">
+        <div class="portfolio-modal-dialog bg-white">
+            <a class="close-button portfolio-modal-dismiss" href="#" data-dismiss="modal">
+                <i class="fa fa-2x fa-times close-link"></i>
+            </a>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="text-secondary text-uppercase mb-0">
+                            Canadian Public EV Charging Station Analysis
+                        </h2>
+                        <hr class="star-dark mb-5" />
+                        <img class="img-fluid mb-5" src="assets\img\portfolio\city_canada.PNG" alt="Canadian EV Charging Stations indicated on map of Canada" />
+                        <p class="mb-5">
+                            This project was developed to determine current infrastructure requirements
+                            for public electric vehicle charging stations in Canadian cities. With the
+                            planned ending of non-zero emission vehicle sales in 2025, Canadian cities must be
+                            ready to provide charging stations for public use. This analysis is inteded to provide a
+                            snapshot of the current available charging stations in canadian cities, and whether the existing 
+                            infrastructure meets the requirements of public demand.
+                        </p>
+                        <!--<a class="btn btn-primary portfolio-modal-dismiss" href="#">
+                            Live Demo
+                        </a> -->
+
+                        <a class="btn btn-primary portfolio-modal-dismiss" href="https://github.com/JorMerr/EV_charging_locations">
+                            View Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Template
+    <div class="modal portfolio-modal mfp-hide" id="portfolio-modal-7">
+        <div class="portfolio-modal-dialog bg-white">
+            <a class="close-button portfolio-modal-dismiss" href="#" data-dismiss="modal">
+                <i class="fa fa-2x fa-times close-link"></i>
+            </a>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="text-secondary text-uppercase mb-0">
                             Project Name
                         </h2>
                         <hr class="star-dark mb-5" />
@@ -481,7 +576,9 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
+
+
 
     <!-- Bootstrap core JavaScript -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -497,6 +594,9 @@
     <!-- Plugin JavaScript -->
     <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"
         integrity="sha256-0YPKAwZP7Mp3ALMRVB2i8GXeEndvCq3eSl/WsAl1Ryk=" crossorigin="anonymous"></script>
+
+    <!-- Image Credits:
+        Mailbox: https://www.istockphoto.com/photo/canada-post-mail-box-gm1165559236-320756892 -->
 </body>
 
 </html>
